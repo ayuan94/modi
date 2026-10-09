@@ -1,0 +1,42 @@
+modi.main_msg: "Run a configurable command on server startup and/or on a cron schedule"
+
+# Help
+modi.click_show: "Click to show current config"
+modi.click_run: "Click to run once now"
+modi.click_paste: "Click to paste"
+modi.click_toggle: "Click to toggle startup run"
+modi.help_show: "Show current command, startup flag and cron status"
+modi.help_run: "Run the current command once now"
+modi.help_setcmd: "Set the MC command to execute"
+modi.help_setcron: "Set cron expression (5 fields: min hour day month weekday), type off to disable"
+modi.help_startup: "Toggle whether to run after server startup"
+
+# Status
+modi.status_command: "§eCommand: §r{}"
+modi.status_startup: "§eRun on startup: §r{}"
+modi.status_cron_on: "§eCron: §r{}"
+modi.status_cron_desc: "§7Meaning: §r{}"
+modi.status_next_run: "§7Next run: §r{}"
+modi.status_cron_off: "§eCron: §r{}"
+
+# Feedback
+modi.run_executed: "Command executed: §b{}§r"
+modi.cmd_set: "Command updated to: §b{}§r"
+modi.cron_set: "Cron set to §b{}§r\n§7Meaning: §r{}"
+modi.cron_disabled_msg: "Cron disabled"
+modi.startup_toggled: "Run on startup toggled to: {}"
+
+# Common
+modi.on: "ON"
+modi.off: "OFF"
+
+# Errors
+modi.err_permission: "You have no permission to use this command"
+modi.err_syntax: "Syntax error, use !!modi help for help"
+
+# Cron description
+modi.cron_every: "every {}"
+modi.cron_every_n: "every {} {}"
+modi.cron_disabled: "(disabled)"
+modi.cron_invalid: "Invalid cron expression: §c{}§r (expected 5 fields: min hour day month weekday)"
+modi.cron_format: "{}, {}, {}, {}, {}"

@@ -1,0 +1,21 @@
+{
+    "id": "modi",
+    "version": "1.0.0",
+    "name": "modi",
+    "description": {
+        "en_us": "Run a configured command on server startup and/or on a cron schedule.",
+        "zh_cn": "在服务端启动完成后及/或按 cron 定时执行一条可配置的命令。"
+    },
+    "author": [
+        "ayuan"
+    ],
+    "link": "",
+    "dependencies": {
+        "mcdreforged": ">=2.0.0"
+    },
+    "archive_name": "modi-{version}",
+    "resources": [
+        "LICENSE",
+        "lang"
+    ]
+}

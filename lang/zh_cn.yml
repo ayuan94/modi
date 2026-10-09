@@ -1,0 +1,42 @@
+modi.main_msg: "在服务器启动后及/或按 cron 定时执行一条可配置命令"
+
+# 帮助
+modi.click_show: "点击查看当前配置"
+modi.click_run: "点击立即执行一次"
+modi.click_paste: "点击粘贴到输入框"
+modi.click_toggle: "点击切换启动执行开关"
+modi.help_show: "查看当前命令、启动执行开关与 cron 状态"
+modi.help_run: "立即执行一次当前命令"
+modi.help_setcmd: "设置要执行的 MC 命令"
+modi.help_setcron: "设置 cron 表达式（5字段：分 时 日 月 周），输入 off 关闭"
+modi.help_startup: "切换服务器启动完成后是否自动执行"
+
+# 状态展示
+modi.status_command: "§e当前命令: §r{}"
+modi.status_startup: "§e启动时执行: §r{}"
+modi.status_cron_on: "§eCron: §r{}"
+modi.status_cron_desc: "§7解释: §r{}"
+modi.status_next_run: "§7下次执行: §r{}"
+modi.status_cron_off: "§eCron: §r{}"
+
+# 操作反馈
+modi.run_executed: "已执行命令: §b{}§r"
+modi.cmd_set: "命令已更新为: §b{}§r"
+modi.cron_set: "Cron 已设置为 §b{}§r\n§7解释: §r{}"
+modi.cron_disabled_msg: "Cron 已关闭"
+modi.startup_toggled: "启动执行已切换为: {}"
+
+# 通用
+modi.on: "开启"
+modi.off: "关闭"
+
+# 错误
+modi.err_permission: "你没有权限使用此指令"
+modi.err_syntax: "语法错误，请使用 !!modi help 查看帮助"
+
+# cron 解释
+modi.cron_every: "每{}"
+modi.cron_every_n: "每 {} {}"
+modi.cron_disabled: "（已关闭）"
+modi.cron_invalid: "无效的 cron 表达式: §c{}§r（应为 5 字段：分 时 日 月 周）"
+modi.cron_format: "{}，{}，{}，{}，{}"
