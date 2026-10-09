@@ -1,2 +1,2 @@
 mcdreforged
-apscheduler
+apscheduler<4
