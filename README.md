@@ -51,7 +51,7 @@
 | ---- | ---- | -------- |
 | `!!modi` | 查看当前命令、启动开关、cron 状态与通俗解释、下次执行时间 | 1 |
 | `!!modi help` | 显示帮助 | 1 |
-| `!!modi run` | 立即手动执行一次当前命令 | 2 |
+| `!!modi run` | 立即手动执行一次当前命令 | 1 |
 | `!!modi setcmd <command>` | 设置要执行的 MC 命令 | 2 |
 | `!!modi setcron <expr\|off>` | 设置 cron 表达式，`off` 关闭 | 2 |
 | `!!modi startup` | 切换启动时执行开关 | 2 |
@@ -113,7 +113,7 @@
 ## 权限说明
 
 MCDReforged 权限等级：`0` guest < `1` user < `2` admin < `3` helper < `4` owner。
-玩家权限在 MCDR 的 `config/permission.yml` 中配置。本插件默认：查看类命令需等级 1，执行/配置类命令需等级 2。
+玩家权限在 MCDR 的 `config/permission.yml` 中配置。本插件默认：查看与手动执行类命令需等级 1，配置类命令（setcmd / setcron / startup）需等级 2。
 
 ## 许可证
 
